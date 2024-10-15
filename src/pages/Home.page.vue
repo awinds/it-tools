@@ -8,7 +8,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: '�۷乤�� - IT Tools' });
+useHead({ title: '√€∑‰π§æﬂ - IT Tools' });
 const { t } = useI18n();
 </script>
 

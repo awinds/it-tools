@@ -7,7 +7,7 @@ describe('text-statistics', () => {
       expect(getStringSizeInBytes('')).toEqual(0);
       expect(getStringSizeInBytes('a')).toEqual(1);
       expect(getStringSizeInBytes('aa')).toEqual(2);
-      expect(getStringSizeInBytes('😀')).toEqual(4);
+      expect(getStringSizeInBytes('ðŸ˜€')).toEqual(4);
       expect(getStringSizeInBytes('aaaaaaaaaa')).toEqual(10);
     });
   });
